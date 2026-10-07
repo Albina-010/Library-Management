@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "quantity": 5,
+      "available": 5
+    },
+    {
+      "id": 2,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "quantity": 4,
+      "available": 4
+    },
+    {
+      "id": 3,
+      "title": "Python Programming",
+      "author": "Mark Lutz",
+      "category": "Programming",
+      "quantity": 6,
+      "available": 5
+    },
+    {
+      "id": 4,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self Help",
+      "quantity": 3,
+      "available": 3
+    },
+    {
+      "id": 1791279006545,
+      "title": "Jungle Book",
+      "author": "JK Rowling",
+      "category": "Fiction",
+      "quantity": 7,
+      "available": 7
+    },
+    {
+      "id": 1791279053369,
+      "title": "Harry Potter",
+      "author": "JK Rowling",
+      "category": "Fiction",
+      "quantity": 10,
+      "available": 10
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Dhanyasree",
+      "email": "dhanyasree@gmail.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": 2,
+      "name": "Sakthi Priya",
+      "email": "sakthi@gmail.com",
+      "phone": "9876543211"
+    },
+    {
+      "id": 1791279119919,
+      "name": "Albina Lincy",
+      "email": "lincy@gmail.com",
+      "phone": "9123456789"
+    },
+    {
+      "id": 1791279147987,
+      "name": "Raveena",
+      "email": "raveena@gmail.com",
+      "phone": "9164895678"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1791279174718,
+      "bookId": 1791279053369,
+      "bookTitle": "Harry Potter",
+      "memberId": 2,
+      "memberName": "Sakthi Priya",
+      "issueDate": "2026-10-06",
+      "dueDate": "2026-10-20",
+      "returnDate": "2026-10-06",
+      "fine": 0,
+      "status": "Returned"
+    },
+    {
+      "id": 1791282006732,
+      "bookId": 3,
+      "bookTitle": "Python Programming",
+      "memberId": 1791279147987,
+      "memberName": "Raveena",
+      "issueDate": "2026-10-06",
+      "dueDate": "2026-10-20",
+      "returnDate": null,
+      "fine": 0,
+      "status": "Issued"
+    }
+  ]
+}
